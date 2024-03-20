@@ -16,8 +16,8 @@ public class Application1 {
         System.out.println('a'); // 문자 형태의 값은 홀따움표(single-quotation)으로 감싸주어야 한다
         //System.out.println('ab'); // 두 개 이상은 문자로 취급하지 않기 때문에 에러가 발생한다
         //System.out.println(''); // 아무 문자도 기록되지 않는 경우 에러가 발생한다.
-        //System.out.println('1'); // 숫자 값이지만 홀따움표로 감싸져 있는 경우 문자'1'로 판단한다.
-        //System.out.println('남');
+        System.out.println('1'); // 숫자 값이지만 홀따움표로 감싸져 있는 경우 문자'1'로 판단한다.
+        System.out.println('남');
 
         /* 3. 문자열 형태의 값 출력 */
         System.out.println("안녕하세요"); //문자열 문자 여러개가 나열된 형태를 말하며 쌍따움표(double-qoutation)으로 감싸주어야한다
