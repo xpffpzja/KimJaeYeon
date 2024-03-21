@@ -30,7 +30,7 @@ public class Application1 {
         /* 증감연산자를 다른 연산자와 사용 */
         /*
         *  주의사항
-        *  증감연산자는 다른 연산자와 함꼐 활용할때 의미가 달라니다.
+        *  증감연산자는 다른 연산자와 함꼐 활용할때 의미가 달라진다.
         *  다른 연산자와 함께 사용할 때 증감 연산자의 의미
         *  'num++' : 다른 연산 먼저 진행하고 난 뒤 마지막에 피연산자의 값을 1증가시킴.
         *  '++num'  : 피연산자의 값을 먼저 1을 증가시킨 후 다른 연산을 진행함.
@@ -50,12 +50,12 @@ public class Application1 {
         System.out.println(" secondNum " + secondNum);
 
         int num1 = 10;
-        int result2 = --num1 * 3;
+        int result2 = num1-- * 3;
         System.out.println(" result2 " + result2);
         System.out.println(" num1 " + num1);
 
         int num2 = 10;
-        int result3 = num2-- * 3;
+        int result3 = --num2 * 3;
         System.out.println(" result3 " + result3);
         System.out.println(" num2 " + num2);
 
