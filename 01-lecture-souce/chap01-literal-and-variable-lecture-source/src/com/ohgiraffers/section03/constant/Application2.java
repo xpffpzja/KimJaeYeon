@@ -19,6 +19,6 @@ public class Application2 {
         /* 2. 단어와 단어의 연결은 언더스코어(_)를 사용한다. */
         final int MAX_AGE = 60;
         final int MIN_AGE = 20;
-        final int minAge = 30; //came case의 사용이 가능하지만 변수와 구분하기 힘들기 때문에 사용안함.
+        final int minAge = 30; //camel case의 사용이 가능하지만 변수와 구분하기 힘들기 때문에 사용안함.
     }
 }
