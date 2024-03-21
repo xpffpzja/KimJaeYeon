@@ -40,14 +40,26 @@ public class Application1 {
         int result = firstNum++ * 3;  //  다른 연산을 먼저 처리하고 난뒤 마지막에 증가 처리함.
 
         System.out.println(" result " + result);
-        System.out.println(" result " + firstNum);
+        System.out.println(" firstNum " + firstNum);
 
 
         int secondNum = 20;
-        int result1 = ++secondNum *3;
+        int result1 = ++secondNum * 3;
 
         System.out.println(" result1 " + result1);
         System.out.println(" secondNum " + secondNum);
+
+        int num1 = 10;
+        int result2 = --num1 * 3;
+        System.out.println(" result2 " + result2);
+        System.out.println(" num1 " + num1);
+
+        int num2 = 10;
+        int result3 = num2-- * 3;
+        System.out.println(" result3 " + result3);
+        System.out.println(" num2 " + num2);
+
+
 
     }
 }
