@@ -67,7 +67,7 @@ public class Application1 {
         /* 1-4. 논리형은 형변환 규칙에서 제외된다. */
         /*  어떤 자료형이든 boolean을 형변환해서 담을 수 없다. */
         boolean inTrue = true;
-        //char.032 b = inTrue;
+        //char b = inTrue;
 
 
     }
