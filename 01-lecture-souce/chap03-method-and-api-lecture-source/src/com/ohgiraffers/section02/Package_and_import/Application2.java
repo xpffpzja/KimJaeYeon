@@ -29,7 +29,7 @@ public class Application2 {
 
         /* 3. static 메소드를 호출할 때 클래스명을 생략하고 사용할 수 있다.*/
 
-        int max2 = maxNumberOf(100,200); //static import 메소드 수동추가
+        int max2 = maxNumberOf(100,200); //static import 메소드 수동추가 했기때문.
         System.out.println("100과 200중에 더 큰 값은? " + max2);
 
 
