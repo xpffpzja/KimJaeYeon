@@ -59,4 +59,4 @@ public class Application1 {
         System.out.println("점심시간 끝은 2시 30분 입니다.");
     }
 }
-}
+
