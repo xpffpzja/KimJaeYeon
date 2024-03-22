@@ -27,7 +27,7 @@ public class Application6 {
 
 
         String returnTest = app6.testMethod();
-        System.out.println(returnTest);    //
+        System.out.println(returnTest);    // hello world 출력됨.
         System.out.println(app6.testMethod());
 
 
