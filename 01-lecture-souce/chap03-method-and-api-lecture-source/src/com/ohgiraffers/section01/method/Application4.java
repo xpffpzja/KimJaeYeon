@@ -9,6 +9,7 @@ public class Application4 {
 
         /* 1. 여러 개의 매개변수를 가진 메소드 호출 */
         Application4 app4 = new Application4();
+
         app4.testMethod("홍길동",20,'남');
         // app4. testMethod(20, "유관순", "여"); // 값의 갯수는 맞지만 순서가 다르게 전달되면 호출하지 못함.
 
@@ -16,6 +17,7 @@ public class Application4 {
         String name = "유관순";
         int age = 20;
         char gender ='여';
+        app4.testMethod(name, age, gender);
 
 
 
