@@ -1,6 +1,6 @@
-package com.ohgiraffers.연습문제;
+package com.ohgiraffers.Question;
 
-public class 연습문제1 {
+public class Question1 {
 
     public static void main(String[] args) {
 
