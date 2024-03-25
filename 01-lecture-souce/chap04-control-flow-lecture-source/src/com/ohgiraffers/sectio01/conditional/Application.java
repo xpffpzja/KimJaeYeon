@@ -17,8 +17,8 @@ public class Application {
         /* 중첩 if-else문 흐름 확인용 메소드 호출*/
         // b.testNeatedIfelseStatement();
 
-        //C_ifElseif c = new C_ifElseif();
-       // c.testNestdIfElseIfStatement2();
+        C_ifElseif c = new C_ifElseif();
+        c.improveNestedIfElseIfStatement();
 
 
         //D_switch d = new D_switch();
