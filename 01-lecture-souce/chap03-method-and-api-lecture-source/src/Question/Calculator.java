@@ -2,7 +2,7 @@ package Question;
 
 public class Calculator {
 
-   // public class Calculator {
+    //public class Calculator {
 
         public int sum(int a, int b) {
 
