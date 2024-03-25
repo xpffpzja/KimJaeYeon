@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/01_JAVA.iml" filepath="$PROJECT_DIR$/.idea/01_JAVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-lecture-souce/chap01-literal-and-variable-lecture-source/chap01-literal-and-variable-lecture-source.iml" filepath="$PROJECT_DIR$/01-lecture-souce/chap01-literal-and-variable-lecture-source/chap01-literal-and-variable-lecture-source.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-lecture-souce/chap02-operator-lecture-source/chap02-operator-lecture-source.iml" filepath="$PROJECT_DIR$/01-lecture-souce/chap02-operator-lecture-source/chap02-operator-lecture-source.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-lecture-souce/chap03-method-and-api-lecture-source/chap03-method-and-api-lecture-source.iml" filepath="$PROJECT_DIR$/01-lecture-souce/chap03-method-and-api-lecture-source/chap03-method-and-api-lecture-source.iml" />
       <module fileurl="file://$PROJECT_DIR$/testProject/testProject.iml" filepath="$PROJECT_DIR$/testProject/testProject.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/하이미디어.iml" filepath="$PROJECT_DIR$/.idea/하이미디어.iml" />
+>>>>>>> origin/master
     </modules>
   </component>
 </project>
