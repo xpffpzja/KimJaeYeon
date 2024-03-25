@@ -39,7 +39,7 @@ public class C_ifElseif {
 
     }
 
-    public void testNestdIfElseIfStatement2() {
+    public void testNestdIfElseIfStatement2(){
 
         /* 수업목표. 중첩된 if-else-if문의 흐름을 이해하고 적용할 수 있다. */
         /* 중첩된 if-else-if문 실행 흐름 확인 */
@@ -59,55 +59,78 @@ public class C_ifElseif {
         int point = sc.nextInt();
 
         String grade = "";
-        int num = sc.nextInt();
-        if (num >= 95){
-            grade = "A+";
 
-        }
-        if (num >= 90){
+        int num = sc.nextInt();
+        if (point >= 90) {
+
+            /*  점수가 90점 이상인 경우 */
             grade = "A";
 
-        }
-        if (num >= 85){
-            grade = "B+";
+            /*  등급은 A등급인데 그럼 +가 붙을 자격이 있는지(95점 이상인지) 다시 확인 */
+            if (point >= 95) {
 
-        }
-        if (num >= 80){
+                /*  95점 이상인 경우 A등급에 +기호를 덧붙여 A+ 등급을 만들어준다. */
+                grade += "+";
+            }
+
+        } else if (point >= 80) {
+
+            /* 점수가 90점 미만, 80점 이상인 경우 */
             grade = "B";
 
-        }
-        if (num >= 75){
-            grade = "C+";
+            /*  등급은 B등급인데 그럼 +가 붙을 자격이 있는지(85점 이상인지) 다시 확인 */
+            if (point >= 85) {
 
-        }
-        if (num >= 70){
+                /* 85점 이상인 경우 B등급에 +기호를 덧붙여 B+ 등급을 만들어준다. */
+                grade += "+";
+            }
+
+        } else if (point >= 70) {
+
+            /* 점수가 80점 미만, 70점 이상인 경우 */
             grade = "C";
 
-        }
+            /* 등급은 C등급인데 그럼 +가 붙을 자격이 있는지(75점 이상인지) 다시 확인 */
+            if (point >= 75) {
 
-        if (num >= 65){
-            grade = "D+";
+                /* 75점 이상인 경우 C등급에 +기호를 덧붙여 C+ 등급을 만들어준다. */
+                grade += "+";
+            }
 
-        }
-        if (num >= 60){
+        } else if (point >= 60) {
+
+            /* 점수가 70점 미만, 60점 이상인 경우 */
             grade = "D";
 
-        }
-        if (num < 60){
+            /*  등급은 D등급인데 그럼 +가 붙을 자격이 있는지(65점 이상인지) 다시 확인 */
+            if (point >= 65) {
+
+                /*  65점 이상인 경우 D등급에 +기호를 덧붙여 D+ 등급을 만들어준다. */
+                grade += "+";
+            }
+
+        } else {
+
+            /*  위 조건을 다 만족하지 못하는 점수가 60점 미만인 경우 */
             grade = "F";
 
+            /*  등급이 F인 경우는 +를 붙이지 않는다. */
+
         }
 
-        System.out.println(name + "학생의 점수는" + num + " 점, 등급은" + grade + "  + 이다.");
-
-
-
-
-
-
-
+        /* 설명. 위에서 결정된 등급을 점수와 함께 출력한다. */
+        System.out.println(name + " 학생의 점수는 " + point + "이고, 등급은 " + grade + "입니다.");
+        System.out.println("프로그램을 종료합니다.");
 
     }
+
+
+
+
+
+
+
+
 
 
     }
