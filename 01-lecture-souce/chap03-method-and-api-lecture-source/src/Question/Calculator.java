@@ -2,7 +2,6 @@ package Question;
 
 public class Calculator {
 
-    //public class Calculator {
 
         public int sum(int a, int b) {
 
@@ -21,8 +20,8 @@ public class Calculator {
         public int divide(int a, int b) {
 
             return (a / b);
-        }
+
     }
-//}
+}
 
 

@@ -1,12 +1,8 @@
-<<<<<<<< HEAD:01-lecture-souce/chap03-method-and-api-lecture-source/src/Question/Question2.java
+
 package Question;
-========
-package com.ohgiraffers.Question;
 
 public class Question2 {
->>>>>>>> origin/master:01-lecture-souce/chap03-method-and-api-lecture-source/src/com/ohgiraffers/Question/Question2.java
 
-public class Question2 {
     public static void main(String[] args) {
         int x = 2;
         int y = 5;
@@ -39,21 +35,18 @@ public class Question2 {
           이를 담을 수 있는 바구니에는 10개의 사과를 담을 수 있다면 총 10개의 바구니가 필요할 것이다.
           아래에 알맞은 코드를 넣으시오.*/
 
-<<<<<<<< HEAD:01-lecture-souce/chap03-method-and-api-lecture-source/src/Question/Question2.java
+
         int numOfApples = 92;
         int sizeOfBucket = 10;
         int numOfBucket = 10;
         System.out.println("필요한 바구니의 수 : " + numOfBucket);
 
         //System.out.println("필요한 바구니의 수 : " + numOfBucket); -> 10
-========
-          int numOfApples = 92;
-          int sizeOfBucket = 10;
-          int numOfBucket = 10;
-        System.out.println("필요한 바구니의 수 : " + numOfBucket);
+
+
 
           //System.out.println("필요한 바구니의 수 : " + numOfBucket); -> 10
->>>>>>>> origin/master:01-lecture-souce/chap03-method-and-api-lecture-source/src/com/ohgiraffers/Question/Question2.java
+
 
     }
 }

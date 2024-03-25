@@ -1,12 +1,10 @@
-<<<<<<<< HEAD:01-lecture-souce/chap03-method-and-api-lecture-source/src/Question/Question1.java
+
 package Question;
-========
-package com.ohgiraffers.Question;
 
 public class Question1 {
->>>>>>>> origin/master:01-lecture-souce/chap03-method-and-api-lecture-source/src/com/ohgiraffers/Question/Question1.java
 
-public class Question1 {
+
+
     public static void main(String[] args) {
 
         int a = 20; int b = 30;
