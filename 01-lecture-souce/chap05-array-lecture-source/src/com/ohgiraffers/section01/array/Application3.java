@@ -12,7 +12,7 @@ public class Application3 {
          * 정수 : 0
          * 실수 : 0.0
          * 논리 : false
-         * 문자 : /(역)
+         * 문자 : \u0000
          * 참고 : null
          * */
 
@@ -36,16 +36,21 @@ public class Application3 {
 
         int[] iarr2 = {11, 22, 33,44,55};
             System.out.println("iarr2.length = " + iarr2.length);
+        for(int i = 0; i < iarr2.length; i++){
+            System.out.println("iarr2[" + i + "]의 값 : " + iarr2[i]);
+        }
+
         int[] iarr3 = new int[]{11, 22, 33, 44};
             System.out.println("iarr3.length = " + iarr3.length);
 
 
 
+        String[] sarr = {"apple", "banana","grape","orange"};
 
+        for(int i = 0; i < sarr.length; i++) {
+            System.out.println("sarr[" + i + "]의 값 : " + sarr[i]);
 
-        for(int i = 0; i < iarr.length; i++) {
-        String[] sarr = {"apple", "banana", "grape", "orange"};
-                System.out.println("sarr[" + i + "]의 값 : " + sarr[i]);
+        }
 
         }
 
@@ -56,4 +61,5 @@ public class Application3 {
 
 
     }
-}
+
+
