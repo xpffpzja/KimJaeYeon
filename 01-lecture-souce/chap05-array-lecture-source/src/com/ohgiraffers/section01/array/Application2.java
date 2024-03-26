@@ -40,7 +40,7 @@ public class Application2 {
         char carr2[] = new char[10];
 
         /* heap메모리는 이름으로 접근하는게 아니라 주소로 접근하는 명령
-        * stacl에 저장된 주소로 heap에 할당된 배열을 찾아갈 수 있다.
+        * stack에 저장된 주소로 heap에 할당된 배열을 찾아갈 수 있다.
         * */
         System.out.println("iarr = " + arr2 ); // 16진수 주소값
         System.out.println("carr = " + carr2); // 16진수 주소값
