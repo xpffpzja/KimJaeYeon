@@ -17,11 +17,12 @@ public class Application {
 
 
         B_while b = new B_while();
-       // b.testWhileExaple2();
+        b.testWhileExample();
+        // b.testWhileExaple2();
 
         C_doWhile c = new C_doWhile();
         //c.TestSimpleDoWhileStatement();
-        c.testDoWhileExample();
+        //c.testDoWhileExample();
 
 
 

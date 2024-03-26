@@ -1,20 +1,17 @@
-<
-
 package com.ohgiraffers.Question;
-public class a123 {
 
-
+public class Question2 {
     public static void main(String[] args) {
         int x = 2;
         int y = 5;
         char c = 'A'; // 'A'의 문자코드는 65
         System.out.println(y >= 5 || x < 0 && x > 2); //1번
         System.out.println(y += 10 - x++); //2번
-        System.out.println(x+=2); //3번
-        System.out.println( !('A' <= c && c <='Z') ); //4번
-        System.out.println('C'-c); //5번
-        System.out.println('5'-'0'); //6번
-        System.out.println(c+1); //7번
+        System.out.println(x += 2); //3번
+        System.out.println(!('A' <= c && c <= 'Z')); //4번
+        System.out.println('C' - c); //5번
+        System.out.println('5' - '0'); //6번
+        System.out.println(c + 1); //7번
         System.out.println(++c); //8번
         System.out.println(c++); //9번
         System.out.println(c); //10번
@@ -36,21 +33,12 @@ public class a123 {
           이를 담을 수 있는 바구니에는 10개의 사과를 담을 수 있다면 총 10개의 바구니가 필요할 것이다.
           아래에 알맞은 코드를 넣으시오.*/
 
-<<<<<<<< HEAD:01-lecture-souce/chap03-method-and-api-lecture-source/src/Question/Question2.java
+
         int numOfApples = 92;
         int sizeOfBucket = 10;
-        int numOfBucket = 10;
+        int numOfBucket = numOfApples / sizeOfBucket + (numOfApples % sizeOfBucket > 0 ? 1:0);
         System.out.println("필요한 바구니의 수 : " + numOfBucket);
 
         //System.out.println("필요한 바구니의 수 : " + numOfBucket); -> 10
-========
-          int numOfApples = 92;
-          int sizeOfBucket = 10;
-          int numOfBucket = 10;
-        System.out.println("필요한 바구니의 수 : " + numOfBucket);
-
-          //System.out.println("필요한 바구니의 수 : " + numOfBucket); -> 10
->>>>>>>> origin/master:01-lecture-souce/chap03-method-and-api-lecture-source/src/com/ohgiraffers/Question/Question2.java
-
     }
 }
