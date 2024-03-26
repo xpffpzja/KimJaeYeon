@@ -1,12 +1,9 @@
-<<<<<<<< HEAD:01-lecture-souce/chap03-method-and-api-lecture-source/src/Question/Question2.java
-package Question;
-========
+<
+
 package com.ohgiraffers.Question;
+public class a123 {
 
-public class Question2 {
->>>>>>>> origin/master:01-lecture-souce/chap03-method-and-api-lecture-source/src/com/ohgiraffers/Question/Question2.java
 
-public class Question2 {
     public static void main(String[] args) {
         int x = 2;
         int y = 5;
