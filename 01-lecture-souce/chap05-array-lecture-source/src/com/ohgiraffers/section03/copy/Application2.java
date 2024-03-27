@@ -28,7 +28,7 @@ public class Application2 {
     public static void print(String[] sarr){
 
         System.out.println("sarr.hashCode() = " + sarr.hashCode()); //1283928880
-        for(int i =0; i< sarr.length; i++){
+        for(int i = 0; i < sarr.length; i++){
             System.out.print(sarr[i] + " ");
         }
         System.out.println();
