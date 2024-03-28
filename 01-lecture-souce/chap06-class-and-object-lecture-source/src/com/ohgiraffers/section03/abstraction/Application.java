@@ -118,9 +118,9 @@ public class Application {
             System.out.println("4. 시동 끄기");
             System.out.println("9. 프로그램 종료");
             System.out.print("메뉴 선택 : ");
-            int no = sc.nextInt();
 
-            switch (no){
+            int num = sc.nextInt();
+            switch (num){
                 case 1 : carRacer.startUp(); break;
                 case 2 : carRacer.stepAccelator(); break;
                 case 3 : carRacer.stepBreak(); break;
@@ -130,7 +130,7 @@ public class Application {
 
             }
 
-            if(no==9){
+            if(num==9){
                 break;
             }
 
