@@ -1,23 +1,20 @@
 package test2;
 
-import test1.TestMethod;
-import static test1.TestMethod.TestRandom;
+import static test1.TestMethod;
 
 public class Application {
     public static void main(String[] args) {
 
-        TestMethod A = new TestMethod();
+        Application A = new Application();
         A.Calculator(2, 5);
 
-        System.out.println("=================");
+        System.out.println("두 수의 합은 " + sum + "입니다.");
+        System.out.println("두 수의 차는 " + minus + "입니다.");
+        System.out.println("두 수의 곱은 " + multi + "입니다.");
+        System.out.println("두 수의 나눈 값은 " + divide + "입니다.");
+        System.out.println("두 수의 나눈 나머지는 " + lift + "입니다.");
 
-        double circle = A.CircleArea();
-        System.out.println("원의 넓이는 " + circle + "입니다.");
-
-        System.out.println("=================");
-
-        String str = TestRandom();
-        System.out.println(str);
 
     }
 }
+
